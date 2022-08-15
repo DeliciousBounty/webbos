@@ -1,4 +1,7 @@
-#!/usr/bin/env python
 from setuptools import setup
-if __name__ =="__main__":
-setup()
+
+setup(
+    name='My First Setup File',
+    version='1.0',
+    scripts=['first.py'],
+)
